@@ -115,7 +115,7 @@ iperf3 -c 10.222.2.1 -P40 -R
 vultr 2.5美元每月套餐(single core 2.4ghz cpu,512m ram,日本东京机房),
 #### server主机
 bandwagonhost 3.99美元每年套餐(single core 2.0ghz cpu,128m ram,美国洛杉矶机房)
-### Test1
+### 测试1
 raw_mode: faketcp  cipher_mode: xor  auth_mode: simple
 
 ![image4](/images/image4.PNG)
@@ -124,7 +124,7 @@ raw_mode: faketcp  cipher_mode: xor  auth_mode: simple
 
 测试中cpu被打满。其中有30%的cpu是被openvpn占的。 如果不用Openvpn中转，实际达到100+Mb/S 应该没问题。
 
-### Test2
+### 测试2
 raw_mode: faketcp  cipher_mode: aes128cbc  auth_mode: md5
 
 ![image5](/images/image5.PNG)
