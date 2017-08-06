@@ -9,6 +9,8 @@ Udp2raw-tunnel
 ### 加密 防重放攻击
 用aes128cbc加密，md5/crc32做数据完整校验。用类似ipsec/openvpn的 replay windows机制来防止重放攻击。
 
+设计目标是，即使攻击者可以监听到tunnel的所有包，可以选择性丢弃tunnel的任意包，可以重放任意包；攻击者也没办法获得tunnel承载的任何数据，也没办法向tunnel的数据流中通过包构造/包重放插入任何数据。
+
 ### 模拟TCP3次握手
 模拟TCP3次握手，模拟seq ack过程。另外还模拟了一些tcp option：MSS,sackOk,TS,TS_ack,wscale，用来使流量看起来更像是由普通的linux tcp协议栈发送的。
 
