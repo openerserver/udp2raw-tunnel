@@ -20,7 +20,7 @@ Udp2raw-tunnel
 ### 其他特性
 信道复用，client的udp端支持多个连接。
 
-server支持多个client，也能正确处理多个连接的重连和连接回复。
+server支持多个client，也能正确处理多个连接的重连和连接恢复。
 
 NAT 穿透 ，tcp icmp udp模式都支持nat穿透。
 
