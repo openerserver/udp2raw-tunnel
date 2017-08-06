@@ -112,7 +112,7 @@ iperf3 -c 10.222.2.1 -P40
 iperf3 -c 10.222.2.1 -P40 -R
 ```
 #### client主机
-vultr $2.5/monthly plan(single core 2.4ghz cpu,512m ram,日本东进机房),
+vultr $2.5/monthly plan(single core 2.4ghz cpu,512m ram,日本东京机房),
 #### server主机
 bandwagonhost $3.99/annually(single core 2.0ghz cpu,128m ram,美国洛杉矶机房)
 ### Test1
