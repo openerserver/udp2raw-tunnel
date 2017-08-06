@@ -116,17 +116,12 @@ raw_mode: faketcp  cipher_mode: aes128cbc  auth_mode: md5
 (tcp over tcp problem http://sites.inka.de/bigred/devel/tcp-tcp.html)
 2. openopvn via icmp
 
-//todo
 ### tunneling kcptun
 make kcptun support tcp mode.
 (kcptun, https://github.com/xtaci/kcptun)
 
-//todo
 ### tunneling finalspeed
 finalspeed 's tcp mode doesnt work on openvz VPS.you can use finalspeed 's udp mode,and tunnel udp through tcp with this tunnel.
-
-//todo
-
 
 # Related work
 ### kcptun-raw
