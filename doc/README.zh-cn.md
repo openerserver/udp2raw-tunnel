@@ -130,7 +130,7 @@ raw_mode: faketcp  cipher_mode: aes128cbc  auth_mode: md5
 
 （反向的速度几乎一样，所以只发正向测试的图)
 
-
+测试中cpu被打满。绝大多数cpu都是被udp2raw占用的（主要消耗在aes加密）。即使不用Openvpn，速度也不会快很多了。
 # 应用
 ### 中转 kcptun
 
