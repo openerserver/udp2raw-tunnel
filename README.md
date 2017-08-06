@@ -112,9 +112,10 @@ raw_mode: faketcp  cipher_mode: aes128cbc  auth_mode: md5
 
 # Application
 ### tunneling openvpn
-1. bypass tcp ovr tcp problem when udp is not avaliable. 
+A. bypass tcp ovr tcp problem when udp is not avaliable. 
 (tcp over tcp problem http://sites.inka.de/bigred/devel/tcp-tcp.html)
-2. openopvn via icmp
+
+B. openopvn via icmp
 
 ### tunneling kcptun
 make kcptun support tcp mode.
