@@ -1,7 +1,7 @@
 Udp2raw-tunnel 
 ![image2](/images/image2.PNG)
 加密、防重放攻击的、信道复用的udp tunnel，利用raw socket中转udp流量
-
+[English](/README.md)
 ### 把udp流量伪装成tcp /icmp
 可以突破udp流量限制或Udp QOS。或者在udp nat有问题的环境下，提升稳定性。  另外也支持用raw 发udp包，这样流量不会被伪装，只会被加密。
 
